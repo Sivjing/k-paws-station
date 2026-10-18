@@ -52,3 +52,31 @@ button {
     border-radius: 10px;
     font-size: 16px;
 }
+.category-tabs {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 12px 0;
+  margin-bottom: 20px;
+}
+
+.category-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.category-tab {
+  flex-shrink: 0;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 18px;
+  background: #f3f3f3;
+  color: #333;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.category-tab.active {
+  background: #3b7a57;
+  color: white;
+}
