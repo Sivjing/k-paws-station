@@ -53,6 +53,7 @@ button {
     font-size: 16px;
 }
 
+
 .category-tabs {
   display: flex;
   flex-wrap: nowrap;
@@ -63,7 +64,6 @@ button {
   padding: 10px 0;
   margin-bottom: 20px;
   width: 100%;
-  max-width: 100%;
   box-sizing: border-box;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
