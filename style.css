@@ -96,3 +96,14 @@ button {
   background: #3b7a57;
   color: white;
 }
+
+
+body {
+  overflow-x: hidden;
+}
+
+.category-tabs {
+  display: flex !important;
+  overflow-x: auto !important;
+  flex-wrap: nowrap !important;
+}
